@@ -25,9 +25,9 @@ It was recently discovered that the app can support not only Mi band 4/5, but ma
 1. First and most complicated step is to get auth key of your device. (For more information - please visit https://freemyband.com/ or https://github.com/argrento/huami-token if you experienced with python)
 2. Download and extract source code
     - Open Terminal
-    - cd <filepath>
-    - (first time) npm install osc
-    - node app.js 
+    - type "cd [filepath]"
+    - first time you may need to type "npm install osc"
+    - type "node app.js" to launch the app 
 3. Enter your auth key and click Connect (Make sure you turned off bluetooth on your phone)
 4. Pair your smartwatch/fitness tracker with browser
 5. Wait about ~15s and done! Now you sending data about your heart rate to VRChat (Don't forget to turn on OSC in Action menu)
