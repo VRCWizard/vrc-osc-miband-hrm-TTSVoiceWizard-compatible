@@ -64,8 +64,10 @@ server.on('connection', ws => {
             vrchatOSC.send(heartrate);
             vrchatOSC.send(heartrate2);
             vrchatOSC.send(heartrate3);
+            vrchatOSC.close();
             VoiceWizardOSC.open();
             VoiceWizardOSC.send(heartrate4);
+            VoiceWizardOSC.close();
         }
     });
 });
